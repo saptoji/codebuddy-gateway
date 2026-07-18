@@ -77,7 +77,6 @@ A combo chains multiple models with automatic fallback. If the first model fails
 3. Add models in priority order (highest priority first):
    - `gpt-5.5`
    - `claude-opus-4.7-1m`
-   - `claude-opus-4.6`
    - `gemini-3.1-pro`
    - `glm-5.2`
    - `deepseek-v3`
@@ -93,7 +92,6 @@ curl -X POST http://localhost:20128/api/combos \
     "models": [
       "gpt-5.5",
       "claude-opus-4.7-1m",
-      "claude-opus-4.6",
       "gemini-3.1-pro",
       "glm-5.2",
       "deepseek-v3"
