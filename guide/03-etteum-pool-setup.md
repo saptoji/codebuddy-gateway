@@ -209,7 +209,7 @@ curl http://localhost:1930/v1/chat/completions \
   }'
 ```
 
-> **Note:** etteum-pool uses `cb-` prefixed model names (e.g., `cb-gpt-5.5`, `cb-claude-opus-4.8`). See the full list at `http://localhost:1930/v1/models`.
+> **Note:** etteum-pool uses `cb-` prefixed model names (e.g., `cb-gpt-5.5`, `cb-claude-opus-4.7-1m`). See the full list at `http://localhost:1930/v1/models`.
 
 ---
 

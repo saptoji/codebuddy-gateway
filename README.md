@@ -80,8 +80,8 @@ The gateway bridges these by:
 
 | Category | Models |
 |----------|--------|
-| Claude | `claude-opus-4.8`, `claude-opus-4.7`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
-| GPT | `gpt-5.5`, `gpt-5.4`, `gpt-5.2`, `gpt-5.1`, `gpt-5.3-codex`, `gpt-5.2-codex`, `gpt-5.1-codex` |
+| Claude | `claude-opus-4.7-1m`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
+| GPT | `gpt-5.5`, `gpt-5.4`, `gpt-5.2`, `gpt-5.1`, `gpt-5.3-codex`, `gpt-5.2-codex` |
 | Gemini | `gemini-3.5-flash`, `gemini-3.1-pro`, `gemini-3.0-flash`, `gemini-2.5-pro`, `gemini-2.5-flash` |
 | GLM | `glm-5.2`, `glm-5.1`, `glm-5.0`, `glm-4.6` |
 | Kimi | `kimi-k2.6`, `kimi-k2.5` |

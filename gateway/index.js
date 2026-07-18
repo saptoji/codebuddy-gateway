@@ -35,15 +35,14 @@ function getNextKey() {
 // ─── Model list ─────────────────────────────────────────────────────────────
 const MODEL_LIST = [
   // Claude
-  "claude-opus-4.8", "claude-opus-4.8-1m",
-  "claude-opus-4.7", "claude-opus-4.7-1m",
-  "claude-opus-4.6", "claude-opus-4.6-1m",
-  "claude-sonnet-4.6", "claude-haiku-4.5",
+  "claude-opus-4.7-1m",
+  "claude-opus-4.6",
+  "claude-sonnet-4.6",
+  "claude-haiku-4.5",
   // GPT
-  "gpt-5.5", "gpt-5.5-xhigh",
+  "gpt-5.5",
   "gpt-5.4", "gpt-5.2", "gpt-5.1",
-  "gpt-5.3-codex", "gpt-5.2-codex", "gpt-5.1-codex",
-  "gpt-5.1-codex-max", "gpt-5.1-codex-mini",
+  "gpt-5.3-codex", "gpt-5.2-codex",
   // Gemini
   "gemini-3.5-flash", "gemini-3.1-pro", "gemini-3.1-flash-lite",
   "gemini-3.0-flash", "gemini-2.5-pro", "gemini-2.5-flash",
