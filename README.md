@@ -80,12 +80,24 @@ The gateway bridges these by:
 
 | Category | Models |
 |----------|--------|
-| Claude | `claude-opus-4.8`, `claude-opus-4.7`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
+| Claude | `claude-opus-4.7-1m`, `claude-opus-4.7`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
 | GPT | `gpt-5.5`, `gpt-5.4`, `gpt-5.2`, `gpt-5.1`, `gpt-5.3-codex`, `gpt-5.2-codex`, `gpt-5.1-codex` |
 | Gemini | `gemini-3.5-flash`, `gemini-3.1-pro`, `gemini-3.0-flash`, `gemini-2.5-pro`, `gemini-2.5-flash` |
 | GLM | `glm-5.2`, `glm-5.1`, `glm-5.0`, `glm-4.6` |
 | Kimi | `kimi-k2.6`, `kimi-k2.5` |
-| DeepSeek | `deepseek-v3`, `deepseek-v3-2-volc` |
+| DeepSeek | `deepseek-v3`, `deepseek-v3.1` |
+
+> **Not available (yet):** The following models have **not** been released on CodeBuddy.ai at time of writing. Once they launch, the gateway will auto-detect them via `/v1/models`.
+
+| Model | Status |
+|-------|--------|
+| `gpt-5.6` | ❌ Not released |
+| `gpt-5.6-codex` | ❌ Not released |
+| `claude-opus-4.8` | ❌ Not released |
+| `claude-opus-4.8-1m` | ❌ Not released |
+| `claude-sonnet-4.7` | ❌ Not released |
+| `claude-haiku-4.6` | ❌ Not released |
+| `gemini-3.5-pro` | ❌ Not released |
 
 ---
 
