@@ -58,8 +58,10 @@ const MODEL_LIST = [
 ];
 
 // ─── NOT AVAILABLE (yet) on CodeBuddy.ai ────────────────────────────────────
-//   gpt-5.6, gpt-5.6-codex, claude-opus-4.8, claude-opus-4.8-1m,
-//   claude-sonnet-4.7, claude-haiku-4.6, gemini-3.5-pro
+//   ❌ gpt-5.6, gpt-5.6-codex
+//   ❌ claude-opus-4.8, claude-opus-4.8-1m
+//   ❌ claude-sonnet-4.7, claude-haiku-4.6
+//   ❌ gemini-3.5-pro
 // ────────────────────────────────────────────────────────────────────────────
 
 // ─── GET /v1/models ─────────────────────────────────────────────────────────
