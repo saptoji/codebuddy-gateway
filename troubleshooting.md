@@ -269,3 +269,24 @@ systemctl disable etteum-pool
   curl http://localhost:1930/api/stats \
     -H "Authorization: Bearer $DASHBOARD_KEY" | python3 -m json.tool
   ```
+
+---
+
+## Models Not Available
+
+> **Not available (yet):** The following models have **not** been released on CodeBuddy.ai at time of writing. Once they launch, the gateway will auto-detect them via `/v1/models`.
+
+| Model | Status |
+|-------|--------|
+| `gpt-5.6` | ❌ Not released |
+| `gpt-5.6-codex` | ❌ Not released |
+| `claude-opus-4.8` | ❌ Not released |
+| `claude-opus-4.8-1m` | ❌ Not released |
+| `claude-sonnet-4.7` | ❌ Not released |
+| `claude-haiku-4.6` | ❌ Not released |
+| `gemini-3.5-pro` | ❌ Not released |
+
+Always verify current availability:
+```bash
+curl http://localhost:8787/v1/models | python3 -m json.tool
+```

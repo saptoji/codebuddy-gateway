@@ -76,7 +76,7 @@ A combo chains multiple models with automatic fallback. If the first model fails
 2. Name it `codebuddy`
 3. Add models in priority order (highest priority first):
    - `gpt-5.5`
-   - `claude-opus-4.7-1m`
+   - `claude-opus-4.8`
    - `gemini-3.1-pro`
    - `glm-5.2`
    - `deepseek-v3`
@@ -91,7 +91,7 @@ curl -X POST http://localhost:20128/api/combos \
     "name": "codebuddy",
     "models": [
       "gpt-5.5",
-      "claude-opus-4.7-1m",
+      "claude-opus-4.8",
       "gemini-3.1-pro",
       "glm-5.2",
       "deepseek-v3"
@@ -143,7 +143,7 @@ curl http://localhost:20128/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer YOUR_9ROUTER_API_KEY" \
   -d '{
-    "model": "claude-opus-4.7-1m",
+    "model": "claude-opus-4.8",
     "messages": [
       {"role": "user", "content": "What is 2+2?"}
     ]
@@ -184,7 +184,7 @@ This calls the gateway's `/v1/models` endpoint and lists all available CodeBuddy
 When you use a combo (e.g., `model: "codebuddy"`):
 
 1. 9Router tries the first model (`gpt-5.5`)
-2. If it fails (timeout, 500, 429), 9Router tries the next (`claude-opus-4.7-1m`)
+2. If it fails (timeout, 500, 429), 9Router tries the next (`claude-opus-4.8`)
 3. Continues down the chain until one succeeds
 4. If all fail, returns an error
 

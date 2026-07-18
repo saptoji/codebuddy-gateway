@@ -331,10 +331,25 @@ Model availability on CodeBuddy changes over time. The gateway's `/v1/models` en
 | Gemini | `gemini-3.5-flash`, `gemini-3.1-pro`, `gemini-3.1-flash-lite`, `gemini-3.0-pro`, `gemini-3.0-flash`, `gemini-2.5-pro`, `gemini-2.5-flash` |
 | GLM | `glm-5.2`, `glm-5.1`, `glm-5.0`, `glm-5v-turbo`, `glm-5.0-turbo`, `glm-4.7`, `glm-4.6`, `glm-4.6v` |
 | Kimi | `kimi-k2.6`, `kimi-k2.5` |
-| DeepSeek | `deepseek-v4-pro`, `deepseek-v4-flash`, `deepseek-v3.1` |
+| DeepSeek | `deepseek-v4-pro`, `deepseek-v4-flash`, `deepseek-v3-2-volc`, `deepseek-v3.1` |
 | Others | `minimax-m2.5`, `minimax-m2.7`, `hunyuan-2.0-instruct`, `o4-mini`, `auto`, `default` |
 
-> **Not available (yet):** `gpt-5.6`, `claude-opus-4.8`, `claude-sonnet-4.7`, `gemini-3.5-pro` — these models have not been released on CodeBuddy.ai at time of writing. Once they launch, the gateway will auto-detect them.
+> **Not available (yet):** The following models have **not** been released on CodeBuddy.ai at time of writing. Once they launch, the gateway will auto-detect them via `/v1/models`.
+
+| Model | Status |
+|-------|--------|
+| `gpt-5.6` | ❌ Not released |
+| `gpt-5.6-codex` | ❌ Not released |
+| `claude-opus-4.8` | ❌ Not released |
+| `claude-opus-4.8-1m` | ❌ Not released |
+| `claude-sonnet-4.7` | ❌ Not released |
+| `claude-haiku-4.6` | ❌ Not released |
+| `gemini-3.5-pro` | ❌ Not released |
+
+Always verify current availability:
+```bash
+curl http://localhost:8787/v1/models | python3 -m json.tool
+```
 
 Always verify current availability:
 

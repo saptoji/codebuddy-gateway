@@ -78,17 +78,14 @@ The gateway bridges these by:
 
 ## Available Models
 
-| Category | Models (confirmed live) |
-|----------|------------------------|
-| Claude | `claude-opus-4.7-1m`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
-| GPT | `gpt-5.5`, `gpt-5.4`, `gpt-5.2`, `gpt-5.1`, `gpt-5.3-codex`, `gpt-5.2-codex` |
-| Gemini | `gemini-3.5-flash`, `gemini-3.1-pro`, `gemini-3.1-flash-lite`, `gemini-3.0-pro`, `gemini-3.0-flash`, `gemini-2.5-pro`, `gemini-2.5-flash` |
-| GLM | `glm-5.2`, `glm-5.1`, `glm-5.0`, `glm-5v-turbo`, `glm-5.0-turbo`, `glm-4.7`, `glm-4.6`, `glm-4.6v` |
+| Category | Models |
+|----------|--------|
+| Claude | `claude-opus-4.8`, `claude-opus-4.7`, `claude-opus-4.6`, `claude-sonnet-4.6`, `claude-haiku-4.5` |
+| GPT | `gpt-5.5`, `gpt-5.4`, `gpt-5.2`, `gpt-5.1`, `gpt-5.3-codex`, `gpt-5.2-codex`, `gpt-5.1-codex` |
+| Gemini | `gemini-3.5-flash`, `gemini-3.1-pro`, `gemini-3.0-flash`, `gemini-2.5-pro`, `gemini-2.5-flash` |
+| GLM | `glm-5.2`, `glm-5.1`, `glm-5.0`, `glm-4.6` |
 | Kimi | `kimi-k2.6`, `kimi-k2.5` |
-| DeepSeek | `deepseek-v4-pro`, `deepseek-v4-flash`, `deepseek-v3.1` |
-| Others | `minimax-m2.5`, `minimax-m2.7`, `hunyuan-2.0-instruct`, `o4-mini` |
-
-> **Not available (yet):** `gpt-5.6`, `claude-opus-4.8`, `claude-sonnet-4.7`, `gemini-3.5-pro` — not released on CodeBuddy.ai at time of writing.
+| DeepSeek | `deepseek-v3`, `deepseek-v3-2-volc` |
 
 ---
 
