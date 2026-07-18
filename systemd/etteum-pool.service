@@ -1,0 +1,14 @@
+[Unit]
+Description=Etteum Pool - AI Proxy
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/etteum-pool
+ExecStart=/root/.bun/bin/bun run /opt/etteum-pool/scripts/production.ts --skip-build
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+bun.lockb
+bun.lock
+
+# Environment files
+.env
+*.env
+keys.txt
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+
+# Build output
+dist/
+build/
+.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

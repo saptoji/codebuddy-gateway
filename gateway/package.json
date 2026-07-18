@@ -1,0 +1,14 @@
+{
+  "name": "codebuddy-gateway",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible bridge for CodeBuddy.ai API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-fetch": "^2.7.0"
+  },
+  "license": "MIT"
+}

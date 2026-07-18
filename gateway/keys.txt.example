@@ -1,0 +1,11 @@
+# CodeBuddy API Keys
+# One key per line. Keys start with "ck_" and are 59 characters long.
+# Example:
+# ck_fsg1uigwd2ww.abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJ
+#
+# IMPORTANT: Never commit this file with real keys.
+# Copy this file to keys.txt and add your keys there.
+
+ck_your_first_api_key_here
+ck_your_second_api_key_here
+ck_your_third_api_key_here

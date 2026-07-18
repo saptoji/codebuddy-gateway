@@ -1,0 +1,21 @@
+# etteum-pool environment configuration
+# Copy to .env and fill in your values
+
+# Server ports
+PORT=1930
+DASHBOARD_PORT=1931
+
+# Dashboard access key (generate with: openssl rand -hex 24)
+API_KEY=your-r...n
+
+# Encryption key for stored credentials (generate with: openssl rand -hex 16)
+ENCRYPTION_KEY=your-random-encryption-key-here
+
+# Database
+DATABASE_URL=file:./etteum-pool.db
+
+# Request timeout in milliseconds
+PROVIDER_REQUEST_TIMEOUT_MS=120000
+
+# Quota check timeout in milliseconds
+PROVIDER_QUOTA_TIMEOUT_MS=15000

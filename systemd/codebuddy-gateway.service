@@ -1,0 +1,14 @@
+[Unit]
+Description=CodeBuddy Gateway - OpenAI-compatible bridge
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/codebuddy-gateway
+ExecStart=/usr/bin/node /opt/codebuddy-gateway/index.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
